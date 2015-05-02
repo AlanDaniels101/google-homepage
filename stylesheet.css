@@ -8,11 +8,19 @@
 	padding-top: 145px;
 }
 
+#microphone_img {
+	width: 17px;
+	height: 23px;
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 265px;
+}
+
 div {
 	text-align: center;
 }
 
-img {
+#google_img {
 	height: 95px;
 	width: 270px;
 	display: block;
@@ -24,7 +32,6 @@ input {
 	background-color: #fff;
 	border: 1px solid rgb(185,185,185);
 	border-radius: 1px;
-	border-top-color: rgb(160,160,160);
 	cursor: text;
 
 	display: block;
@@ -35,6 +42,10 @@ input {
 	font: 18px arial, sans-serif;
 	height: 30px;
 	width: 570px;
+}
+
+input:after {
+	content: url(http://puu.sh/hybZe/e15dc992ba.png);
 }
 
 input:hover {
@@ -54,9 +65,11 @@ input:hover {
 	border: 1px solid rgba(0,0,0,0.1);
 	border-radius: 2px;
 
-	text-indent: 0px;
-	-webkit-appearance: push-button;
+	line-height: 32px;
 
-	width: 96px;
-	height: 29px;
+	max-width: 110px;
+	max-height: 29px;
+
+	margin-left: 6px;
+	margin-right: 6px;
 }
