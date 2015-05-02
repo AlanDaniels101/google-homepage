@@ -1,6 +1,9 @@
 
 #bar {
 	background-color: red;
+	border: 2px solid black
+	/*display: block*/
+	height: 100px;
 }
 
 #content {
@@ -13,7 +16,7 @@
 	height: 23px;
 	position: absolute;
 	margin-top: 3px;
-	margin-left: 265px;
+	margin-left: 262px;
 }
 
 div {
@@ -39,13 +42,11 @@ input {
 	margin-left: auto;
 	margin-right: auto;
 
-	font: 18px arial, sans-serif;
-	height: 30px;
-	width: 570px;
-}
+	text-indent: 8px;
 
-input:after {
-	content: url(http://puu.sh/hybZe/e15dc992ba.png);
+	font: 18px arial, sans-serif;
+	height: 27px;
+	width: 570px;
 }
 
 input:hover {
