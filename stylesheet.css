@@ -1,3 +1,8 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
 
 #navbar {
 	/*border: 2px solid black;*/
@@ -110,19 +115,47 @@ input:hover {
 	margin-right: 6px;
 }
 
-#footer {
-	height: 200%;
-	background: #f2f2f2;
+div#footer {
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-left: -10px;
+	padding-left: 0;
+	background-color: #f2f2f2;
+	border: 1px solid #e4e4e4;
 }
 
-#footer_left {
-	display: inline;
-	background: #f2f2f2;
+div#footer_left {
 	float: left;
+	margin-top: 9px;
+	margin-left: -20px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
-#footer_right {
-	display: inline;
-	background: #f2f2f2;
+div#footer_right {
 	float: right;
+	margin-top: 9px;
+	margin-right: 20px;
+}
+
+div#footer #footer_left li{
+	background-color: #f2f2f2;
+	font-family: arial, sans-serif;
+	font-size: small;
+	color: #666;
+
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+div#footer #footer_right li{
+	background-color: #f2f2f2;
+	font-family: arial, sans-serif;
+	font-size: small;
+	color: #666;
+
+	margin-left: 7px;
+	margin-right: 7px;
 }
