@@ -2,6 +2,7 @@ html {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	overflow: hidden;
 }
 
 #navbar {
@@ -116,12 +117,14 @@ input:hover {
 }
 
 div#footer {
-	display: inline-block;
 	position: absolute;
-	bottom: 0;
+	bottom: -2px;
+	height: 42px;
 	width: 100%;
 	margin-left: -10px;
 	padding-left: 0;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 	background-color: #f2f2f2;
 	border: 1px solid #e4e4e4;
 }
@@ -144,10 +147,13 @@ div#footer #footer_left li{
 	background-color: #f2f2f2;
 	font-family: arial, sans-serif;
 	font-size: small;
-	color: #666;
 
 	margin-left: 7px;
 	margin-right: 7px;
+}
+
+div#footer #footer_left li a{
+	color: #666;
 }
 
 div#footer #footer_right li{
@@ -158,4 +164,8 @@ div#footer #footer_right li{
 
 	margin-left: 7px;
 	margin-right: 7px;
+}
+
+div#footer #footer_right li a {
+	color: #666;	
 }
